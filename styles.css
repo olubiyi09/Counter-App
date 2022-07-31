@@ -39,5 +39,64 @@ img {
     max-width: 900px;
     margin: 0 auto;
     padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.app-wrapper{
+    background-color: var(--light-blue);
+    text-align: center;
+    padding: 3rem;
+    border: 2px solid var(--blue);
+    border-radius: 1rem;
+    width: 60rem;
+}
+
+.app-wrapper > *{
+    margin-bottom: 4rem;
+}
+
+h1{
+    color: var(--white);
+    font-size: 4rem;
+}
+
+.count-txt{
+    color: var(--white);
+    font-size: 8rem;
+    border: 2px solid;
+    border-color: var(--white);
+    border-radius: 50%;
+    padding: 3rem 5rem;
+    display: inline-block;
+}
+
+button{
+    font-size: 2.3rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+    color: var(--white);
+    cursor: pointer;
+}
+
+.btn{
+    margin-left: 5px;
+}
+
+.subtract{
+    background-color: var(--color-sec);
+}
+
+.reset{
+    color: black;
+}
+
+.add{
+    background-color: green;
 }
 
